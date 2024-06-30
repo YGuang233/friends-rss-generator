@@ -47,8 +47,8 @@ jobs:
     # - name: Install pip 24.0
     #   run: pip install pip==24.0
     
-    - name: Upgrade pip
-      run: pip install --upgrade pip
+    # - name: Upgrade pip
+    #   run: pip install --upgrade pip
       
     - name: Install requirements
       working-directory: ./hexo_circle_of_friends
